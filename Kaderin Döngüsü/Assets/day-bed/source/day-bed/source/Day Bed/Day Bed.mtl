@@ -1,0 +1,14 @@
+# Blender 3.3.0 MTL File: 'Day Bed_01.blend'
+# www.blender.org
+
+newmtl Day_Bed_Material
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Day Bed diffuse.png
+map_Ns Day Bed roughness.png
+map_refl Day Bed metallic.png
+map_Bump -bm 1.000000 Day Bed normal.png
