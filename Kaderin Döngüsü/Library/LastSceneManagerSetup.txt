@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/Scenes/A\xE7\u0131kDosya.unity"
+- path: Assets/Scenes/Kimlikler.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
