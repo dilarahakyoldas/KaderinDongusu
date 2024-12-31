@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/Scenes/K\u0131r\u0131k zemin.unity"
+- path: "Assets/Scenes/A\xE7\u0131kDosya.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0
