@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Radyo.unity
+- path: "Assets/Scenes/Kira S\xF6zle\u015Fmesi.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0
