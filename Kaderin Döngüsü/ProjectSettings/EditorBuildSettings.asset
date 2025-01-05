@@ -4,5 +4,65 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Karakol.unity
+    guid: 80d677fa817b15a43952bbd46a119214
+  - enabled: 1
+    path: Assets/Scenes/Dosya.unity
+    guid: c230b61c72cde5344bd4ad16bb2d8498
+  - enabled: 1
+    path: "Assets/Scenes/A\xE7\u0131kDosya.unity"
+    guid: 98bfa05ae01720947a0bd7041fc9309a
+  - enabled: 1
+    path: Assets/Scenes/Salon.unity
+    guid: fab3bc1293c8e144aa42f3540ee86302
+  - enabled: 1
+    path: Assets/Scenes/Defter.unity
+    guid: 951fb9732d763524990d1a112138f46f
+  - enabled: 1
+    path: "Assets/Scenes/A\xE7\u0131k Defter.unity"
+    guid: 52f71554a5dc00a4f81d4e921b765a4f
+  - enabled: 1
+    path: Assets/Scenes/Kimlikler.unity
+    guid: 731d2c8e40134684e8f3c022bebf082b
+  - enabled: 1
+    path: "Assets/Scenes/K\u0131r\u0131k zemin.unity"
+    guid: 651334b1d8654dc489ca648e340a74f5
+  - enabled: 1
+    path: Assets/Scenes/yatakOdasi.unity
+    guid: 35566f0495ac2cb44ac6317f92083b90
+  - enabled: 1
+    path: "Assets/Scenes/Kapal\u0131 dolap.unity"
+    guid: ffc17140b286f51428d3fc2ba0508544
+  - enabled: 1
+    path: "Assets/Scenes/Dolap \u0130\xE7i.unity"
+    guid: ebf615baa9c2c0b42abf6d0b8ecaffe3
+  - enabled: 1
+    path: "Assets/Scenes/Resmin arkas\u0131.unity"
+    guid: 683c56335000d7e4dac10e2c0703efac
+  - enabled: 1
+    path: Assets/Scenes/tablo.unity
+    guid: 470eabd0f91b2bf4880e266e0c68c336
+  - enabled: 1
+    path: "Assets/Scenes/sand\u0131k.unity"
+    guid: a3560e2e83dc58149a8f028beee1b308
+  - enabled: 1
+    path: "Assets/Scenes/sand\u0131k i\xE7i.unity"
+    guid: 18dc839e05963554398c7f3037189e2c
+  - enabled: 1
+    path: "Assets/Scenes/\xC7ekmece.unity"
+    guid: eae33bb081f85f34db697b543f5de3b1
+  - enabled: 1
+    path: "Assets/Scenes/Anahtar \xE7ekmecesi.unity"
+    guid: c8840e73995edbc47b05ef74b3ee027e
+  - enabled: 1
+    path: "Assets/Scenes/\u0130ntihar \xE7ekmecesi.unity"
+    guid: b3dcbf5895ff5d34dba64df535dbf85e
+  - enabled: 1
+    path: Assets/Scenes/Banyo.unity
+    guid: 097d4edc1ef8f2c4ba597df39eacf1cc
+  - enabled: 1
+    path: Assets/Scenes/Radyo.unity
+    guid: 4fe21b694b639f34693d082baf9bfff8
   m_configObjects: {}
