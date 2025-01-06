@@ -74,4 +74,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/d2.unity
     guid: 34907fbeefb47f94eb5b56bee649edf3
+  - enabled: 1
+    path: Assets/Scenes/d4.unity
+    guid: b3e8ed26805e89f48ae6a4c4c14ca0d6
   m_configObjects: {}

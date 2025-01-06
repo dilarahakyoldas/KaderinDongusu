@@ -2,6 +2,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class DosyaŞifreleme : MonoBehaviour
 {
@@ -40,4 +41,9 @@ public class DosyaŞifreleme : MonoBehaviour
             Debug.Log("Lütfen geçerli bir sayı girin.");
         }
     }
+    public void sagbutton()
+    {
+        SceneManager.LoadScene("d2");
+    }
+
 }

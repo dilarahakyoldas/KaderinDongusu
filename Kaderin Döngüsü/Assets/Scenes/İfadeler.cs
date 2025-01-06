@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class İfadeler : MonoBehaviour
 {
     public TMP_InputField inputAlan1;
@@ -81,5 +81,13 @@ public class İfadeler : MonoBehaviour
             gorunurMetin4.gameObject.SetActive(false);
 
         }
+    }
+    public void sagbutton()
+    {
+        SceneManager.LoadScene("d4");
+    }
+    public void solbutton()
+    {
+        SceneManager.LoadScene("d1");
     }
 }
