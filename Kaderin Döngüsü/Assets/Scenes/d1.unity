@@ -967,7 +967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputField: {fileID: 1271743292}
   correctValue: 73
-  sceneToLoad: dosya 2. sayfa
+  sceneToLoad: d2
 --- !u!4 &878763168
 Transform:
   m_ObjectHideFlags: 0

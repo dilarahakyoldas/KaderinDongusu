@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class DosyaAçılış : MonoBehaviour
 {
     public TMP_InputField inputAlan1;
-    public string dogruDeger1 = "yasin";
+    public string dogruDeger1 = "yasin bulut";
     public string sonrakisahne = "d1"; // Açılacak sahnenin adı
     public TMP_Text geriBildirimMesaji; // TextMeshPro bileşeni için
 

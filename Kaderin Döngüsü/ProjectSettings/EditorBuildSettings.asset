@@ -18,8 +18,29 @@ EditorBuildSettings:
     path: Assets/Scenes/Salon.unity
     guid: fab3bc1293c8e144aa42f3540ee86302
   - enabled: 1
+    path: "Assets/Scenes/sand\u0131k son sahne.unity"
+    guid: 2aeee63bdae4bbf4e935959f66ede269
+  - enabled: 1
     path: Assets/Scenes/Defter.unity
     guid: 951fb9732d763524990d1a112138f46f
+  - enabled: 1
+    path: "Assets/Scenes/anahtar \u015Fifre.unity"
+    guid: d5540845507e6a741bc80b332fd8c8fc
+  - enabled: 1
+    path: "Assets/Scenes/sand\u0131k \u015Fifre.unity"
+    guid: 53b87062a91e8c440ab70288fe150509
+  - enabled: 1
+    path: "Assets/Scenes/kapal\u0131vitrin.unity"
+    guid: c00b578ee190b834ebfb72bd71dd5847
+  - enabled: 1
+    path: "Assets/Scenes/Defterin\u015Eifresi.unity"
+    guid: cdfd905aa6c072d4cbad7667db1ecbe8
+  - enabled: 1
+    path: Assets/Scenes/piyano.unity
+    guid: f93abf64578771b4592f13efbf622cb5
+  - enabled: 1
+    path: "Assets/Scenes/\xF6rdek.unity"
+    guid: 455ce54c57d545047b6c3000ee855a9c
   - enabled: 1
     path: "Assets/Scenes/A\xE7\u0131k Defter.unity"
     guid: 52f71554a5dc00a4f81d4e921b765a4f
@@ -30,14 +51,23 @@ EditorBuildSettings:
     path: "Assets/Scenes/K\u0131r\u0131k zemin.unity"
     guid: 651334b1d8654dc489ca648e340a74f5
   - enabled: 1
+    path: "Assets/Scenes/kapal\u0131 \xE7ekmece kilitli.unity"
+    guid: 9f5cabeadf583eb4fab732c728a10fca
+  - enabled: 1
+    path: "Assets/Scenes/Kira S\xF6zle\u015Fmesi.unity"
+    guid: ff8ae2082c00e6b439880429e216fafa
+  - enabled: 1
+    path: "Assets/Scenes/Men\xFC.unity"
+    guid: 54fe75e3ee5ac6a4eba939692d4b6108
+  - enabled: 1
+    path: Assets/Scenes/resim.unity
+    guid: f77c738133aa6a543a933956fa1a485e
+  - enabled: 1
     path: Assets/Scenes/yatakOdasi.unity
     guid: 35566f0495ac2cb44ac6317f92083b90
   - enabled: 1
     path: "Assets/Scenes/Kapal\u0131 dolap.unity"
     guid: ffc17140b286f51428d3fc2ba0508544
-  - enabled: 1
-    path: "Assets/Scenes/Dolap \u0130\xE7i.unity"
-    guid: ebf615baa9c2c0b42abf6d0b8ecaffe3
   - enabled: 1
     path: "Assets/Scenes/Resmin arkas\u0131.unity"
     guid: 683c56335000d7e4dac10e2c0703efac
@@ -77,4 +107,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/d4.unity
     guid: b3e8ed26805e89f48ae6a4c4c14ca0d6
+  - enabled: 1
+    path: "Assets/Scenes/ds\xE7 \u015Fifre.unity"
+    guid: a773f68b1c735804590718d0ade0ae2e
+  - enabled: 1
+    path: "Assets/Scenes/Dolap \u0130\xE7i.unity"
+    guid: ebf615baa9c2c0b42abf6d0b8ecaffe3
+  - enabled: 1
+    path: Assets/Scenes/cekmece kilidi.unity
+    guid: 14db3693bda736e42af782a935fd71f2
   m_configObjects: {}

@@ -391,7 +391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputAlan1: {fileID: 105644269}
-  dogruDeger1: yasin
+  dogruDeger1: yasin bulut
   sonrakisahne: d1
   geriBildirimMesaji: {fileID: 739652310}
 --- !u!4 &388789810

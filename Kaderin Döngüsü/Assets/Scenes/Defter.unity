@@ -322,6 +322,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1083612422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1083612424}
+  - component: {fileID: 1083612423}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1083612423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083612422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460f72d8fdbb3014c86e398ff78bff9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gidilecekSahneAdi: "Defterin\u015Eifresi"
+--- !u!4 &1083612424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083612422}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 76.54108, y: 3.7940235, z: -12.960973}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1842157148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -389,8 +434,53 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 11f0d4b651bf16e4a93a5571d8f3c8a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1842157150}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 11f0d4b651bf16e4a93a5571d8f3c8a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1842157152}
   m_SourcePrefab: {fileID: 100100000, guid: 11f0d4b651bf16e4a93a5571d8f3c8a9, type: 3}
+--- !u!1 &1842157149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 11f0d4b651bf16e4a93a5571d8f3c8a9, type: 3}
+  m_PrefabInstance: {fileID: 1842157148}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1842157150
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842157149}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.4957275, y: 1, z: 2.9547992}
+  m_Center: {x: -0.8228556, y: 0.0000000017910472, z: 2.3569026}
+--- !u!114 &1842157152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842157149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460f72d8fdbb3014c86e398ff78bff9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gidilecekSahneAdi: "Defterin\u015Eifresi"
 --- !u!1 &1866733877
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,3 +581,4 @@ SceneRoots:
   - {fileID: 1842157148}
   - {fileID: 1866733880}
   - {fileID: 528657813}
+  - {fileID: 1083612424}

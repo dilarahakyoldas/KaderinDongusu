@@ -317,6 +317,45 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb18f09c7c502c548a9e8af30038ce18, type: 3}
+--- !u!1 &243055421 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 88db0c092fd160e4e9d40ef20dac709b, type: 3}
+  m_PrefabInstance: {fileID: 1945038013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &243055422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243055421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de57cf080e02fea4e9237daf9a4469ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gidilecekSahneAdi: "sand\u0131k son sahne"
+--- !u!65 &243055423
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243055421}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &432213475
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,7 +865,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88db0c092fd160e4e9d40ef20dac709b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 243055423}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88db0c092fd160e4e9d40ef20dac709b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 243055422}
   m_SourcePrefab: {fileID: 100100000, guid: 88db0c092fd160e4e9d40ef20dac709b, type: 3}
 --- !u!1 &2101389633
 GameObject:
