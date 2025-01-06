@@ -65,4 +65,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Radyo.unity
     guid: 4fe21b694b639f34693d082baf9bfff8
+  - enabled: 1
+    path: "Assets/Scenes/Dosya a\xE7\u0131l\u0131\u015F \u015Fifresi.unity"
+    guid: ebd9dda301dd20040ba442c33b7f38a2
+  - enabled: 1
+    path: Assets/Scenes/d1.unity
+    guid: eb419ffa43a806141b3d0fb2bc9d056d
+  - enabled: 1
+    path: Assets/Scenes/d2.unity
+    guid: 34907fbeefb47f94eb5b56bee649edf3
   m_configObjects: {}
