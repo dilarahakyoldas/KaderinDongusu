@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dosya.unity
     guid: c230b61c72cde5344bd4ad16bb2d8498
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Scenes/A\xE7\u0131kDosya.unity"
     guid: 98bfa05ae01720947a0bd7041fc9309a
   - enabled: 1
@@ -122,4 +122,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cekmece kilidi.unity
     guid: 14db3693bda736e42af782a935fd71f2
+  - enabled: 1
+    path: Assets/Scenes/ayarlar.unity
+    guid: b2b7b36f0f56d5b44a00597f1c2e9e1a
   m_configObjects: {}
