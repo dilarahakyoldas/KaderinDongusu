@@ -654,6 +654,45 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 595cc98dfca20534d9b4eac24900ecda, type: 3}
+--- !u!1 &469187898 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4bf6a597eb06ddd4889022f24c53be0c, type: 3}
+  m_PrefabInstance: {fileID: 1042543000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &469187899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469187898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70114325230f4fb26b247d403fbd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gidilecekSahneAdi: Dolap son sahne
+--- !u!65 &469187900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469187898}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2469263, y: 1.4943146, z: 1}
+  m_Center: {x: 0.0097895, y: 0.967286, z: 3.2909705e-17}
 --- !u!1001 &727262169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1061,7 +1100,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4bf6a597eb06ddd4889022f24c53be0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 469187900}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4bf6a597eb06ddd4889022f24c53be0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 469187899}
   m_SourcePrefab: {fileID: 100100000, guid: 4bf6a597eb06ddd4889022f24c53be0c, type: 3}
 --- !u!1001 &1044366699
 PrefabInstance:

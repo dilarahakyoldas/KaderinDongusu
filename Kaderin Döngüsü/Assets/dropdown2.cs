@@ -48,7 +48,7 @@ public class dropdown2 : MonoBehaviour
         if (secilen1 == dogruCevap1 && secilen2 == dogruCevap2 && secilen3 == dogruCevap3 && secilen4 == dogruCevap4)
         {
             Debug.Log("Doðru cevaplar! Sahne geçiþi yapýlýyor.");
-            SceneManager.LoadScene("Dolap içi");
+            SceneManager.LoadScene("Dolap Ýçi");
         }
         else
         {
