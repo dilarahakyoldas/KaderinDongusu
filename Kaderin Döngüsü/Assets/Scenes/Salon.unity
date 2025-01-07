@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0a466bc4d6146747a69cc9945fcfddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bedroomButton: {fileID: 0}
+  bedroomButton: {fileID: 1264040465}
   bedroomSceneName: yatakodasi
 --- !u!4 &405854421
 Transform:

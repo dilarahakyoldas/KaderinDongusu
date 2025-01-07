@@ -1,3 +1,4 @@
+using TMPro.Examples;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -25,6 +26,7 @@ public class salon : MonoBehaviour
         if (anahtar.hasKey)
         {
             SceneManager.LoadScene(bedroomSceneName);
+        
         }
         else
         {

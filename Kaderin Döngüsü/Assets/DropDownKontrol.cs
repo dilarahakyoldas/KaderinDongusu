@@ -16,18 +16,22 @@ public class DropDownKontrol : MonoBehaviour
     private int secilen2;
     private int secilen3;
 
-    private string sifreGecildiKey = "SifreGecildi"; // PlayerPrefs için anahtar
+    private string sifreGecildiKey = "SifreGecildi";
+    private bool sifreGecildiOturum = false; // Oturum için þifre geçildi bilgisi
 
     void Start()
     {
-        // Þifre daha önce geçildiyse bu sahneyi atla
-        if (PlayerPrefs.GetInt(sifreGecildiKey, 0) == 1)
+        // Oyun her baþladýðýnda PlayerPrefs'teki bilgiyi sýfýrla
+        PlayerPrefs.SetInt(sifreGecildiKey, 0);
+        PlayerPrefs.Save();
+
+        // Oturumda þifre geçildiyse sahneyi atla
+        if (sifreGecildiOturum)
         {
             SceneManager.LoadScene("Açýk Defter");
-            return; // Fonksiyonun geri kalanýný çalýþtýrma
+            return;
         }
 
-        // Dropdown olaylarýný baðla
         dropdown1.onValueChanged.AddListener(delegate {
             secilen1 = dropdown1.value;
             KontrolEt();
@@ -47,8 +51,7 @@ public class DropDownKontrol : MonoBehaviour
         if (secilen1 == dogruCevap1 && secilen2 == dogruCevap2 && secilen3 == dogruCevap3)
         {
             Debug.Log("Doðru cevaplar! Sahne geçiþi yapýlýyor.");
-            PlayerPrefs.SetInt(sifreGecildiKey, 1); // Þifre geçildi bilgisini kaydet
-            PlayerPrefs.Save(); // Deðiþiklikleri kaydet
+            sifreGecildiOturum = true; // Oturum için þifre geçildi bilgisini ayarla
             SceneManager.LoadScene("Açýk Defter");
         }
         else
