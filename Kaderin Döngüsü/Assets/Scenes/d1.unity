@@ -207,7 +207,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 878763167}
         m_TargetAssemblyTypeName: "Dosya\u015Eifreleme, Assembly-CSharp"
-        m_MethodName: sagbutton
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -957,6 +957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputField: {fileID: 1271743292}
+  sagButon: {fileID: 35387590}
   correctValue: 73
   sceneToLoad: d2
 --- !u!4 &878763168

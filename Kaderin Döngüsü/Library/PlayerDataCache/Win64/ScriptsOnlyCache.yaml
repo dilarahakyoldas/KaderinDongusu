@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - DropDownKontrol
     - "Kira\xE7\u0131k\u0131\u015F"
     - MainMenu
+    - NewBehaviourScript
     - SahneGecis
     - Ses
     - a
@@ -70,6 +71,7 @@ ScriptsOnlyBuild:
     - "\xE7ekmece"
     - "\xE7ekmecekilidi"
     - "\xE7ekmeceson"
+    - "\xE7\u0131k"
     - "\xF6rdek"
     - "\xF6rdeksahne"
     - "\xF6rdek\xE7\u0131k\u0131\u015F"
@@ -175,6 +177,9 @@ ScriptsOnlyBuild:
     fullTypeName: "\u015Fifre\xE7"
     methodName: sagbutton
   - assembly: Assembly-CSharp
+    fullTypeName: "\xE7\u0131k"
+    methodName: sagbutton
+  - assembly: Assembly-CSharp
     fullTypeName: "snad\u0131k"
     methodName: sagbutton
   - assembly: Assembly-CSharp
@@ -225,6 +230,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: Gelecek
+  - assembly: Assembly-CSharp
+    fullTypeName: NewBehaviourScript
+    methodName: kalp
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: Gecmis
@@ -278,7 +286,7 @@ ScriptsOnlyBuild:
     methodName: sagbutton
   - assembly: Assembly-CSharp
     fullTypeName: "Dosya\u015Eifreleme"
-    methodName: sagbutton
+    methodName: LoadScene
   - assembly: Assembly-CSharp
     fullTypeName: i
     methodName: sagbutton
@@ -310,11 +318,11 @@ ScriptsOnlyBuild:
     fullTypeName: ayarlar
     methodName: SetAudio
   - assembly: Assembly-CSharp
-    fullTypeName: ayarlar
-    methodName: SetAudio
-  - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: Gelecek
+  - assembly: Assembly-CSharp
+    fullTypeName: ayarlar
+    methodName: "se\xE7enekler"
   sceneClasses:
     "Assets/Scenes/Anahtar \xE7ekmecesi.unity":
     - Class: 1
@@ -672,9 +680,35 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1624}
+    - Class: 114
+      Script: {instanceID: 1668}
+    - Class: 114
+      Script: {instanceID: 2750}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 5384}
+    - Class: 114
+      Script: {instanceID: 6144}
+    - Class: 114
+      Script: {instanceID: 6484}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     "Assets/Scenes/Dolap \u0130\xE7i.unity":
     - Class: 1
@@ -1227,6 +1261,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6484}
     - Class: 114
       Script: {instanceID: 7118}
+    - Class: 114
+      Script: {instanceID: 54320}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1420,8 +1456,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2750}
     - Class: 114
       Script: {instanceID: 2964}
-    - Class: 114
-      Script: {instanceID: 3734}
     - Class: 114
       Script: {instanceID: 3972}
     - Class: 114
@@ -2237,9 +2271,35 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1624}
+    - Class: 114
+      Script: {instanceID: 1668}
+    - Class: 114
+      Script: {instanceID: 2750}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 5384}
+    - Class: 114
+      Script: {instanceID: 6144}
+    - Class: 114
+      Script: {instanceID: 6484}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     "Assets/Scenes/sand\u0131k \u015Fifre.unity":
     - Class: 1
@@ -2536,9 +2596,35 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1624}
+    - Class: 114
+      Script: {instanceID: 1668}
+    - Class: 114
+      Script: {instanceID: 2750}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 5384}
+    - Class: 114
+      Script: {instanceID: 6144}
+    - Class: 114
+      Script: {instanceID: 6484}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     "Assets/Scenes/\xC7ekmece.unity":
     - Class: 1
@@ -2662,6 +2748,61 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6144}
     - Class: 114
       Script: {instanceID: 6484}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    "Assets/Scenes/\u0130nfo.unity":
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1622}
+    - Class: 114
+      Script: {instanceID: 1624}
+    - Class: 114
+      Script: {instanceID: 1668}
+    - Class: 114
+      Script: {instanceID: 2750}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 5384}
+    - Class: 114
+      Script: {instanceID: 6144}
+    - Class: 114
+      Script: {instanceID: 6484}
+    - Class: 114
+      Script: {instanceID: 55042}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4056,7 +4197,7 @@ ScriptsOnlyBuild:
     className: BasicPlayableBehaviour
   - hash:
       serializedVersion: 2
-      Hash: a5fdc1c219eac324a9249c857bd68037
+      Hash: 97f97204423fb88d4929e8e690cdbdda
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: salon
@@ -4164,7 +4305,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 7c8a526f7cefba8b6a076b041530ba6d
+      Hash: 4dab9b18c0f838a2f86566dff57a326d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: "Dosya\u015Eifreleme"
@@ -4372,6 +4513,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 351f275515398e10986dfe5b3946f666
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NewBehaviourScript
+  - hash:
+      serializedVersion: 2
+      Hash: fc658b1cf31be5c0f5ffa702936da5fa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: "\xE7\u0131k"
   platform: 19
   scenePathNames:
   - Assets/Scenes/Karakol.unity
@@ -4380,6 +4533,7 @@ ScriptsOnlyBuild:
   - "Assets/Scenes/sand\u0131k son sahne.unity"
   - Assets/Scenes/Defter.unity
   - "Assets/Scenes/anahtar \u015Fifre.unity"
+  - "Assets/Scenes/\u0130nfo.unity"
   - "Assets/Scenes/sand\u0131k \u015Fifre.unity"
   - "Assets/Scenes/kapal\u0131vitrin.unity"
   - "Assets/Scenes/\xC7ekmece son sahne.unity"

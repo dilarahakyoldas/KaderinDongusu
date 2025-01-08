@@ -1,24 +1,28 @@
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class DosyaŞifreleme : MonoBehaviour
 {
-    public TMP_InputField inputField; // TextMeshPro InputField bileşeni
-    public int correctValue = 73; // Doğru kabul edilen değer
-    public string sceneToLoad = "dosya 2. sayfa"; // Açılacak sahnenin adı
+    public TMP_InputField inputField;
+    public Button sagButon;
+    public int correctValue = 73;
+    public string sceneToLoad = "d2";
 
     void Start()
     {
-        if (inputField != null)
+        if (inputField != null && sagButon != null)
         {
-            inputField.onEndEdit.AddListener(CheckInputValue); // Listener ekle
+            sagButon.interactable = false;
+            inputField.onValueChanged.AddListener(CheckInputValue);
+            // Butona tıklama olayını da burada ekleyelim
+            sagButon.onClick.AddListener(LoadScene);
         }
         else
         {
-            Debug.LogError("TMP_InputField atanmadı! Inspector'da kontrol et.");
+            if (inputField == null) Debug.LogError("TMP_InputField atanmadı! Inspector'da kontrol et.");
+            if (sagButon == null) Debug.LogError("Sağ Buton atanmadı! Inspector'da kontrol et.");
         }
     }
 
@@ -26,24 +30,24 @@ public class DosyaŞifreleme : MonoBehaviour
     {
         if (int.TryParse(value, out int enteredValue))
         {
-            if (enteredValue == correctValue)
-            {
-                Debug.Log("Doğru değer girildi. Sahne yükleniyor...");
-                SceneManager.LoadScene(sceneToLoad);
-            }
-            else
-            {
-                Debug.Log("Yanlış değer girildi: " + enteredValue);
-            }
+            sagButon.interactable = enteredValue == correctValue;
         }
         else
         {
-            Debug.Log("Lütfen geçerli bir sayı girin.");
+            sagButon.interactable = false;
         }
     }
-    public void sagbutton()
-    {
-        SceneManager.LoadScene("d2");
-    }
 
+    // Sahne yükleme fonksiyonunu ayrı bir fonksiyon haline getirelim
+    public void LoadScene()
+    {
+        if (sagButon.interactable)
+        {
+            SceneManager.LoadScene(sceneToLoad); // sceneToLoad değişkenini kullan
+        }
+        else
+        {
+            Debug.LogWarning("Lütfen doğru değeri girin.");
+        }
+    }
 }

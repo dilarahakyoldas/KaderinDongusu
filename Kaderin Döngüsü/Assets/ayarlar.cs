@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ayarlar : MonoBehaviour
@@ -39,5 +40,9 @@ public class ayarlar : MonoBehaviour
             slider.value = PlayerPrefs.GetFloat("audioVolume");
         }
         
+    }
+    public void seçenekler()
+    {
+        SceneManager.LoadScene("Menü");
     }
 }

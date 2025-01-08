@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: "Assets/Scenes/anahtar \u015Fifre.unity"
     guid: d5540845507e6a741bc80b332fd8c8fc
   - enabled: 1
+    path: "Assets/Scenes/\u0130nfo.unity"
+    guid: f4b434c20bb67d54facf2c03f3d0f9f1
+  - enabled: 1
     path: "Assets/Scenes/sand\u0131k \u015Fifre.unity"
     guid: 53b87062a91e8c440ab70288fe150509
   - enabled: 1
